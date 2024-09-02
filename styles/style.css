@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body{
+  min-width: 320px;
+}
+
+.header {
+  background: #282828;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header__nav-link {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+}
+
+.form__btn {
+  background: #282828;
+  outline: none;
+  border: none;
+}
+
+.banner {
+  background: url(../images/backg.png) no-repeat center top / cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+}
+
+.banner__title {
+  font-family: Prosto One;
+  font-size: 100px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.block a {
+  display: flex;
+  gap: 11px;
+  background: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  color: #000;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+
+.block a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.main {
+  background: #151515;
+}
+
+.block1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.block1__img{
+max-width: 552px;
+width: 100%;
+}
+
+.block1__img img{
+  width: 100%;
+}
+
+.block1__text {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+.block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+  padding-top: 50px;
+}
+
+.block2__img{
+  max-width: 458px;
+  width: 100%;
+}
+
+.block2__img img{
+  width: 100%;
+}
+
+.block2__text {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.block3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+  padding-top: 50px;
+}
+
+.block3__text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.img {
+  position: relative;
+  display: inline-block;
+  max-width: 268px;
+  width: 100%;
+}
+
+.img img{
+width: 100%;
+}
+
+.img::before,
+.img::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.img::before {
+  left: -60px;
+}
+
+.img::after {
+  right: -60px;
+}
+.img {
+  display: block;
+}
+
+.block4 {
+  padding-top: 70px;
+}
+
+.cards__list {
+  display: flex;
+  gap: 30px;
+}
+
+.cards{
+  padding-bottom: 54px;
+}
+
+.cards__list_items {
+  max-width: 255px;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards__list_title {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+}
+.cards__list_text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.view a {
+  width: 161px;
+  height: 34px;
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.view a:hover {
+  background: #2afafa;
+  color: #000;
+}
+
+.footer{
+  background: #282828;
+}
+.footer__wrap{
+  display: flex;
+  padding: 82px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.footer__list a{
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+color: #fff;
+}
